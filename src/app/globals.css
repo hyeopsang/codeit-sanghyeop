@@ -24,6 +24,12 @@
   --color-lime-300: #bef264;
   /* amber */
   --color-amber-800: #92400e;
+  /* breakpoint */
+  --breakpoint-sm: 375px;
+  --breakpoint-md: 744px;
+  --breakpoint-xl: 1200px;
+  /* shadow */
+  --shadow-controls: 2px 3.5px 0 #0f172a;
 }
 
 @theme inline {
@@ -40,8 +46,50 @@
   }
 }
 
+@layer components {
+  .controls {
+    @apply h-[49px] flex items-center justify-center bg-slate-200 border-2 border-slate-900 
+           outline-none rounded-full shadow-controls;
+  }
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: 'NanumSquare', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-color: #64748b;
+}
+/* 체크박스 숨기기 */
+input[type='checkbox'] {
+  display: none;
+}
+
+/* 기본 라벨 스타일 */
+input[type='checkbox'] + label {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border: 3px solid #0f172a;
+  background-color: #fefce8;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+}
+
+/* 체크 시 표시 */
+input[type='checkbox']:checked + label::after {
+  display: flex; /* flex로 중앙 정렬 */
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background-color: #7c3aed;
+  color: white; /* 체크 표시 색상 */
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 20px; /* 조절 가능 */
 }
