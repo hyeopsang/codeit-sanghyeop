@@ -1,10 +1,21 @@
+import clsx from 'clsx';
 import CheckIcon from '@/assets/check.svg';
 
-export default function DoneItem() {
+interface DoneItemProps {
+  title: string;
+  className?: string;
+}
+
+export default function DoneItem({title, className}: DoneItemProps) {
   return (
-    <li className="w-full h-[50px] border-2 border-slate-900 bg-violet-100 rounded-full flex justify-start px-[10px] gap-4 items-center">
+    <li
+      className={clsx(
+        'w-full h-[50px] border-2 border-slate-900 bg-violet-100 rounded-full flex justify-start px-[10px] gap-4 items-center',
+        className
+      )}
+    >
       <CheckIcon />
-      <p className="line-through">성하 보고싶다</p>
+      <p className="line-through">{title}</p>
     </li>
   );
 }

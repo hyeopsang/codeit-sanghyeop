@@ -1,7 +1,7 @@
 @import 'tailwindcss';
 
 :root {
-  --background: #ffffff;
+  --background: #f9fafb;
   --foreground: #171717;
 }
 
@@ -61,35 +61,14 @@ body {
   font-weight: 400;
   font-color: #64748b;
 }
-/* 체크박스 숨기기 */
-input[type='checkbox'] {
-  display: none;
+div::-webkit-scrollbar {
+  width: 4px;
+  height: 10px;
 }
-
-/* 기본 라벨 스타일 */
-input[type='checkbox'] + label {
-  display: inline-block;
-  width: 32px;
-  height: 32px;
-  border: 3px solid #0f172a;
-  background-color: #fefce8;
-  border-radius: 50%;
-  position: relative;
-  cursor: pointer;
+div::-webkit-scrollbar-track {
+  background: transparent;
 }
-
-/* 체크 시 표시 */
-input[type='checkbox']:checked + label::after {
-  display: flex; /* flex로 중앙 정렬 */
-  align-items: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-  background-color: #7c3aed;
-  color: white; /* 체크 표시 색상 */
-  border-radius: 50%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 20px; /* 조절 가능 */
+div::-webkit-scrollbar-thumb {
+  background-color: #fde68a;
+  border-radius: 3px;
 }

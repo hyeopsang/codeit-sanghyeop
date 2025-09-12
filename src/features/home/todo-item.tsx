@@ -1,10 +1,22 @@
 import UnCheckedIcon from '@/assets/unchecked.svg';
 
-export default function TodoItem() {
+import clsx from 'clsx';
+
+interface TodoItemProps {
+  title: string;
+  className?: string;
+}
+
+export default function TodoItem({title, className}: TodoItemProps) {
   return (
-    <li className="w-full h-[50px] border-2 border-slate-900 bg-white rounded-full flex justify-start px-[10px] gap-4 items-center">
+    <li
+      className={clsx(
+        'w-full h-[50px] border-2 border-slate-900 bg-white rounded-full flex justify-start px-[10px] gap-4 items-center',
+        className
+      )}
+    >
       <UnCheckedIcon />
-      <p>성하 보고싶다</p>
+      <p>{title}</p>
     </li>
   );
 }
