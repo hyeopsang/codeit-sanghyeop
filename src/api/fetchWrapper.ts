@@ -11,6 +11,7 @@ async function get(url: string) {
   const requestOptions = {
     method: 'GET',
     headers: {'Content-Type': 'application/json'},
+    next: {tags: ['todos']},
   };
 
   return fetch(`${BASE_URL}/${url}`, requestOptions).then(handleResponse);
