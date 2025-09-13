@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 :root {
   --background: #f9fafb;
@@ -41,7 +41,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #f9fafb;
     --foreground: #ededed;
   }
 }
@@ -56,10 +56,10 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: 'NanumSquare', sans-serif;
+  font-family: "NanumSquare", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  font-color: #64748b;
+  color: #64748b;
 }
 div::-webkit-scrollbar {
   width: 4px;
