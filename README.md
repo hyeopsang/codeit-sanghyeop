@@ -5,7 +5,7 @@
 
 ## 🔧 사용 기술
 
-- **Frontend:** Next.js 15, React 18, TypeScript
+- **Frontend:** Next.js 15, TypeScript
 - **Styling:** Tailwind CSS
 - **API 통신:** Fetch API
 - **배포:** Vercel
