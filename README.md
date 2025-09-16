@@ -1,4 +1,4 @@
-#<img width="71" height="40" alt="Size=Small" src="https://github.com/user-attachments/assets/c91dd125-b11d-459c-988d-0fefe7764914" /> Do It
+# <img width="71" height="40" alt="Size=Small" src="https://github.com/user-attachments/assets/c91dd125-b11d-459c-988d-0fefe7764914" /> Do It
 
 
 `Do It`은 Next.js와 Tailwind CSS, TypeScript를 사용하여 만든 Todo List 웹 애플리케이션입니다.  
