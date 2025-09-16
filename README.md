@@ -1,4 +1,4 @@
-# DO IT
+# <img width="16" height="16" alt="favicon" src="https://github.com/user-attachments/assets/28f68caf-226d-4f3c-a841-10185ef62c2d" /> DO IT
 
 `DO IT`은 Next.js와 Tailwind CSS, TypeScript를 사용하여 만든 Todo List 웹 애플리케이션입니다.  
 ---
