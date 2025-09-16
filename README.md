@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# <img width="59" height="35" alt="Group 33684" src="https://github.com/user-attachments/assets/bb7c852a-eec5-4e17-8bc5-160d6c84759c" /> 할 일 관리 웹 Do It
 
-## Getting Started
 
-First, run the development server:
+## ☀️ Project Topic
+할 일을 쉽게 관리 할 수 있는 웹 사이트 입니다.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💻 Site
+https://codeit-sanghyeop.vercel.app
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔧 사용 기술
+- **Frontend:** Next.js 15, TypeScript
+- **Styling:** Tailwind CSS
+- **API 통신:** Fetch API
+- **배포:** Vercel
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🗂 페이지별 주요 기능
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 홈 페이지
+- 전체 할 일 목록 조회
+- 완료 여부 체크
+- 할 일 생성 폼
+- 반응형 레이아웃
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 할 일 상세 페이지
+- 할 일 이름, 메모, 이미지 확인
+- 할 일 수정 및 이미지 업로드
+- 삭제 기능
+- 완료 상태 토글
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎬 주요 기능 시연
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 1️⃣ 할 일 생성 및 완료 상태 변경
+[![할 일 생성 및 완료](https://github.com/user-attachments/assets/c776a433-c2c9-4520-9868-d29750c20ccb)](https://github.com/user-attachments/assets/c776a433-c2c9-4520-9868-d29750c20ccb)
+
+### 2️⃣ 할 일 수정 및 삭제
+[![할 일 수정 및 삭제](https://github.com/user-attachments/assets/d16fc5ab-09c2-4690-9868-14ea7de9dec8)](https://github.com/user-attachments/assets/d16fc5ab-09c2-4690-9868-14ea7de9dec8)
