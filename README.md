@@ -2,7 +2,7 @@
 ---
 ## 💻 Site
 
-(https://codeit-sanghyeop.vercel.app)  
+https://codeit-sanghyeop.vercel.app
 
 ---
 
