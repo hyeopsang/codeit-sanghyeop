@@ -9,7 +9,7 @@ import {redirect} from 'next/navigation';
 export async function fetchTodos(formData: FormData) {
   try {
     await fetchWrapper.post('items', {name: formData.get('todo')});
-    revalidateTag('todos'); // ISR 태그 재검증
+    revalidateTag('todos');
   } catch (error) {
     console.error('추가 실패:', error);
     throw new Error('추가 중 오류가 발생했습니다.');
@@ -20,6 +20,8 @@ export async function fetchTodos(formData: FormData) {
 export async function deleteTodos(todoId: number) {
   try {
     const result = await fetchWrapper.delete(`items/${todoId}`);
+    revalidateTag('todos');
+
     return result;
   } catch (error) {
     console.error('삭제 실패:', error);
@@ -101,7 +103,7 @@ export async function updateTodos(formData: FormData): Promise<void> {
 export async function toggleCheck(todoId: number, status: boolean) {
   try {
     await fetchWrapper.patch(`items/${todoId}`, {isCompleted: !status});
-    revalidateTag('todos'); // ISR 태그 재검증
+    revalidateTag('todos');
   } catch (error) {
     console.error('체크 토글 실패', error);
   }

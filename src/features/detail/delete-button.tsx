@@ -17,16 +17,16 @@ export default function DeleteButton({todoId}: DeleteButtonProps) {
     e.preventDefault();
 
     try {
+      router.push('/');
+
       // 서버에 todo 삭제 요청
       const result = await deleteTodos(todoId);
-
       // 서버 메시지 알림
       if (result?.message) {
         alert(result.message);
       }
 
       // 삭제 후 루트 페이지로 이동
-      router.push('/');
     } catch (error) {
       // 에러 처리
       alert('삭제 중 오류가 발생했습니다.');
