@@ -1,4 +1,5 @@
-# 할 일 관리 웹  <img width="151" height="40" alt="Size=Large" src="https://github.com/user-attachments/assets/83cf94e1-1d85-4dc5-b978-7ea18a54172d" />
+# <img width="59" height="35" alt="Group 33684" src="https://github.com/user-attachments/assets/bb7c852a-eec5-4e17-8bc5-160d6c84759c" /> 할 일 관리 웹 Do It
+
 ---
 
 
