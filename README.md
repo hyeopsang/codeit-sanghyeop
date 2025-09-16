@@ -2,6 +2,7 @@
 `Do It`은 Next.js와 Tailwind CSS, TypeScript를 사용하여 만든 Todo List 웹 애플리케이션입니다.  
 ---
 
+
 ## 🔧 사용 기술
 
 - **Frontend:** Next.js 15, TypeScript
