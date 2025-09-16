@@ -2,7 +2,7 @@
 ---
 ## 💻 Site
 
-[🔗 사이트 바로가기](https://codeit-sanghyeop.vercel.app)  
+(https://codeit-sanghyeop.vercel.app)  
 
 ---
 
