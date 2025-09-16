@@ -17,6 +17,7 @@ export default function DeleteButton({todoId}: DeleteButtonProps) {
     e.preventDefault();
 
     try {
+      //루트 페이지로 이동
       router.push('/');
 
       // 서버에 todo 삭제 요청
@@ -25,8 +26,6 @@ export default function DeleteButton({todoId}: DeleteButtonProps) {
       if (result?.message) {
         alert(result.message);
       }
-
-      // 삭제 후 루트 페이지로 이동
     } catch (error) {
       // 에러 처리
       alert('삭제 중 오류가 발생했습니다.');
