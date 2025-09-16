@@ -1,3 +1,4 @@
+// 할 일이 없을 때 렌더링되는 컴포넌트
 import Image from 'next/image';
 
 export default function EmptyTodo() {

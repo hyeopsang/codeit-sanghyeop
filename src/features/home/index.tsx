@@ -1,13 +1,13 @@
-// app/page.tsx
+// 메인 홈 공통 파일
 import AddTodo from './add-todo';
 import DoneList from './done-list';
 import TodoList from './todo-list';
 import type {Todo} from '@/types/Todo';
-import {getTodos} from '@/app/actions'; // 서버 액션
+import {getTodos} from '@/lib/actions';
 
 export default async function Home() {
   const data: Todo[] = await getTodos();
-
+  // 완료 된 할 일과 완료 되지 않은 할 일 구분
   const todoList = data.filter((item) => !item.isCompleted);
   const doneList = data.filter((item) => item.isCompleted);
 

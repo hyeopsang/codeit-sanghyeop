@@ -1,3 +1,4 @@
+// 헤더 컴포넌트
 import Logo from './logo';
 import Link from 'next/link';
 

@@ -1,6 +1,6 @@
-'use client';
+// todo 입력 필드
 import AddButton from './add-button';
-import {fetchTodos} from '@/app/actions';
+import {fetchTodos} from '@/lib/actions';
 
 export default function AddTodo() {
   return (
@@ -11,6 +11,9 @@ export default function AddTodo() {
           name="todo"
           placeholder="할 일을 입력해주세요"
           className="controls px-6 flex-1"
+          pattern=".{1,}"
+          autoFocus
+          required
         />
 
         <AddButton />

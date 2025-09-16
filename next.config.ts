@@ -12,6 +12,9 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  images: {
+    domains: ['sprint-fe-project.s3.ap-northeast-2.amazonaws.com'],
+  },
   // webpack 설정
   webpack: (config) => {
     // @ts-expect-error 타입 에러 무시

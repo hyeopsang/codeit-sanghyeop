@@ -1,3 +1,4 @@
+// 반응형 로고 컴포넌트
 import Image from 'next/image';
 
 export default function Logo() {
@@ -9,6 +10,7 @@ export default function Logo() {
         alt="logo"
         fill={true}
         priority={true}
+        sizes="100vw"
         style={{objectFit: 'contain'}}
       />
     </picture>
