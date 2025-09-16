@@ -1,4 +1,5 @@
 # <img width="59" height="35" alt="Group 33684" src="https://github.com/user-attachments/assets/bb7c852a-eec5-4e17-8bc5-160d6c84759c" /> 할 일 관리 웹 Do It
+할 일을 관리 할 수 있는 웹 사이트 입니다.
 ---
 ## 💻 Site
 
