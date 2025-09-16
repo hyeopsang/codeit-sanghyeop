@@ -18,7 +18,6 @@
 |---------------------------|-----------------|
 | [screen-capture (2).webm](https://github.com/user-attachments/assets/c776a433-c2c9-4520-9868-d29750c20ccb) | [screen-capture (3).webm](https://github.com/user-attachments/assets/d16fc5ab-09c2-4690-9868-14ea7de9dec8) |
 
-
 ---
 
 ## ⚡ 프로젝트 특징
