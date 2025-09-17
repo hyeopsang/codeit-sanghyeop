@@ -149,7 +149,7 @@ return (
 화면 크기에 따라 다른 이미지를 표시해야 함
 
 **해결 방법:**
-<picture> + <source> + Next.js <Image> 활용
+picture + source + Next.js <Image> 활용
 fill + objectFit으로 컨테이너에 맞춰 반응형 적용
 ```jsx
 <picture className="relative w-30 md:w-60 aspect-square">
